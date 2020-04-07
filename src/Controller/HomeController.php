@@ -17,6 +17,6 @@ class HomeController extends AbstractController
      */
     public function home()
     {
-        return new Response('Hello world');
+        return new Response('Hello world, je suis un dev');
     }
 }
